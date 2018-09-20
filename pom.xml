@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.imooc.netty</groupId>
-    <artifactId>netty-study</artifactId>
+    <groupId>com.hellozjf.study</groupId>
+    <artifactId>netty</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -44,7 +44,7 @@
                             <appendAssemblyId>false</appendAssemblyId>
                             <archive>
                                 <manifest>
-                                    <mainClass>com.imooc.netty.ch12.connection.Server</mainClass>
+                                    <mainClass>com.hellozjf.study.netty.ch12.connection.Server</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
@@ -65,7 +65,7 @@
                             <appendAssemblyId>false</appendAssemblyId>
                             <archive>
                                 <manifest>
-                                    <mainClass>com.imooc.netty.ch12.connection.Client</mainClass>
+                                    <mainClass>com.hellozjf.study.netty.ch12.connection.Client</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
@@ -79,7 +79,6 @@
                             <goal>single</goal>
                         </goals>
                     </execution>
-
 
 
                 </executions>
